@@ -172,19 +172,26 @@ function Contact() {
                     Mon-Sat 9am href 5pm.
                   </p> */}
                   <a
-                    href="https://wa.me/9975123962"
+                    // href="https://wa.me/9975123962?text=Hello%20I%20like%20to%20contact%20your%20agency"
+                    href="https://wa.link/567izl"
                     className="w-full text-base  text-gray-600"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    
                   >
-                    {/* <img 
-                    src={whatsappSvg}
-                    /> */}
-                    +91 9975123962
-                  </a>
+                    <i class="fa fa-whatsapp mr-2">
+                   
+                    </i>+91 9975123962
+                   
+                    
+                  </a>                 
                   <a
+                  
                     href="mailto: grobbiz.services@gmail.com"
                     className="w-full text-base  text-gray-600"
                   >
-                    grobbiz.services@gmail.com
+                    <i class="fa fa-at mr-2 "></i>
+                     grobbiz.services@gmail.com
                   </a>
                 </div>
               </div>
